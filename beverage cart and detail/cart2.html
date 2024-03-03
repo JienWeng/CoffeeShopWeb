@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <style>
+        
+        h2 {
+            color: black;
+            background-color: bisque;
+            text-align: center;
+            padding: 25px;
+        }
+        .cart-container {
+            margin: 50px;
+        }
+
+        .cart-container h2 {
+            margin-bottom: 10px;
+        }
+
+        .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.cart-item img {
+    width: 80px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+}
+
+.cart-item-details span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cart-item-details .item-name {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.cart-item-details .item-price,
+.cart-item-details .item-quantity {
+    font-size: larger;
+    color: #666;
+}
+
+.remove-item {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-item:hover {
+    background-color: #d32f2f;
+}
+
+
+
+        .cart-total {
+            margin-top: 30px;
+            text-align: right;
+        }
+
+        #checkout-btn {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        #checkout-btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Coffee Shop</a></li>
+                <li><a href="#"><i class="fa-solid fa-house"></i> Home </a></li>
+                <li><a href="beverage.html"><i class="fa-solid fa-whiskey-glass"></i> Beverage </a></li>
+                <li><a href="#"><i class="fa-solid fa-phone"></i> Contact Us </a></li>
+                <li id="cart"><a href="cart2.html"><i class="fa-solid fa-cart-shopping"></i> Shopping Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="#"><i class="fa-regular fa-user"></i> Sign In </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="cart-container">
+        <h2>Shopping Cart</h2>
+        <div id="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-total">
+            <h3>Total: <span id="cart-total">$0.00</span></h3>
+            <button id="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
