@@ -37,6 +37,39 @@ p{
 .container{
     max-width: 1300px;
     margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 45%;
+    min-width: 300px;
+    
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 10px 0;
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 50px;
+    margin: 20px 0;
+}
+.btn{
+    display: inline-block;
+    background:#7B241C;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+.header{
+    background: radial-gradient(#fff,#7E5109);
 }

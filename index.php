@@ -1,5 +1,3 @@
-<?php echo"Hello world"?> 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +10,7 @@
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <a href="index.html"><img src="logo.png" width="125px"></a>
+                <a href="index.html"><img src="cupcorner-logo.jpg" width="125px"></a>
             </div>
 
             <nav>
@@ -28,8 +26,13 @@
         </div>
         <div class="row">
             <div= class="col-2">
+                <h1>Embrace the Aroma: <br>Elevate Your Coffee Experience Today!</h1>
+                <p>Savoring a perfect cup of coffee isn't just about that initial burst of flavor,<br>it's about consistently delivering an unparalleled experience with every sip.</p>
+                <a href="" class="btn">Explore Now &#10172;</a>
 
             </div>
+            <div= class="col-2">
+                <img src="image2.jpg">
         </div>
     </div>
 </body>
