@@ -43,7 +43,7 @@ p{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-    background: linear-gradient(to right, #f5f5dc, #ecd9c6); 
+    background-image: url("background.png") 
 }
 
 .row{
@@ -87,7 +87,7 @@ p{
 }
 
 .header {
-    background: linear-gradient(to right, #f5f5dc, #ecd9c6);
+    background: radial-gradient(#f5f5dc, #ecd9c6);
     padding: 50px 0;
 }
 
@@ -174,7 +174,7 @@ h4{
 /*limited edition*/
 
 .offer{
-    background: linear-gradient(to right, #f5f5dc, #ecd9c6);
+    background: radial-gradient(#f5f5dc, #ecd9c6);
     margin-top: 80px;
     padding: 30px 0;
 }
@@ -244,5 +244,88 @@ small{
 .col-5 img:hover{
     filter: grayscale(0);
 }
+
+/*Footer*/
+
+.footer{
+    background-color: #111;
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.footer-col-1{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-col-1 a{
+ text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.footer-col-1 a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.footer-col-1 a:hover{
+    background-color: #111;
+    transition: 0.5s
+}
+
+.footer-col-1 a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-col-2{
+    margin 30px 0;
+}
+
+.footer-col-2 ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: nonedisc;
+}
+
+.footer-col-2 ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-col-2 ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 

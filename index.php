@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
@@ -18,7 +19,11 @@
          <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
+<<<<<<< Updated upstream
                 <li><a href="menu.php">Menu</a></li>
+=======
+                <li><a href="">Menu</a></li>
+>>>>>>> Stashed changes
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
                 <li><a href="">Account</a></li>
@@ -33,7 +38,7 @@
             <a href="" class="btn">Explore Now &#10172;</a>
         </div>
         <div class="col-2">
-            <img src="1stpg.png" width="425px">
+            <img src="1stpg.png" width="400px">
         </div>
     </div>
    </div>
@@ -159,7 +164,7 @@
                 <div class="col-2">
                     <p>Spooktacular saving</p>
                     <h1> Pumpkin Patch Pals</h1>
-                    <small>Add some festive flair to your Halloween celebrations with our adorable Pumpkin Patch Pals plush! This cuddly companion is the perfect addition to your spooky decor, featuring soft, plush fabric and charming pumpkin design. Receive this delightful plush as a free gift with the purchase of any of our seasonal drinks, and bring a touch of whimsy to your festivities. Hurry, while supplies last! </small>
+                    <small>Add some festive flair to your Halloween celebrations with our adorable Pumpkin Patch Pals plush sponsored by Disney! This cuddly companion is the perfect addition to your spooky decor, featuring soft, plush fabric and charming pumpkin design. Receive this delightful plush as a free gift with the purchase of any of our seasonal drinks, and bring a touch of whimsy to your festivities. Hurry, while supplies last! </small>
                 </div>
             </div>
         </div>
@@ -193,7 +198,7 @@
                         <i class="fa fa-star-o"></i>
                     </div>
                     <img src="cus.rev2.png">
-                    <h3>Chong Yu Tou, Utar professor</h3>
+                    <h3>Chong Yu Tou, UTAR professor</h3>
                 </div>
                 <div class="col-3">
                     <i class="fa fa-quote-left"></i>
@@ -216,7 +221,7 @@
         <div class="small-container">
             <div class="row">
                 <div class="col-5">
-                    <img src="blogo1.png" width="125px">
+                    <img src="blogo4.png" width="125px">
                 </div>
                 <div class="col-5">
                     <img src="blogo2.png" width="125px">
@@ -225,13 +230,35 @@
                     <img src="blogo3.png" width="125px">
                 </div>
                 <div class="col-5">
-                    <img src="blogo4.png" width="125px">
+                    <img src="blogo1.png" width="125px">
                 </div>
+            </div>
+        </div>
+    </div>
+<!----------footer---------->
+    
+    <div class="footer">
+        <div class="footercontainer">
+            <div class="row">
+                <div class="footer-col-1">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footer-col-2">
+                    <ul>
+                        <li><a href=" ">Our Team</a></li>
+                        <li><a href=" ">About</a></li>
+                        <li><a href=" ">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footerBottom">
+                    <p>&copy; 2024 Cup Corner. All rights reserved.</p>
                 
             </div>
         </div>
     </div>
-    
     
     
 </body>
