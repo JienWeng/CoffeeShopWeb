@@ -7,40 +7,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
     <div class="header">
-    <div class="container">
-        <div class="navbar">
-         <div class="logo">
-            <img src="cupcorner-logo.jpg" width="125px">
-         </div>
-         <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-<<<<<<< Updated upstream
-                <li><a href="menu.php">Menu</a></li>
-=======
-                <li><a href="">Menu</a></li>
->>>>>>> Stashed changes
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Account</a></li>
-                <li><a href=""><img src="image4.png" width = "30px" height="30px"></a></li>
-            </ul>
-         </nav>
-    </div>
-    <div class="row">
-        <div class="col-2">
-            <h1>Embrace the Aroma: <br>Elevate Your Coffee Experience Today!</h1>
-            <p>Savoring a perfect cup of coffee isn't just about that initial burst of flavor,<br>it's about consistently delivering an unparalleled experience with every sip.</p>
-            <a href="" class="btn">Explore Now &#10172;</a>
+            <div class="navbar">
+                <nav>
+                    <img src="cupcorner-logo.png" width="100px">
+                    <label for="" class="icons">
+                        <i class='bx bx-menu'></i>
+                    </label>
+                    <ul>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="menu.php">Menu</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Account</a></li>
+                        <li><a href=""><img src="image4.png" width = "30px" height="25px"></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div class="col-2">
-            <img src="1stpg.png" width="400px">
+    <div class="content">
+        <div class="container">    
+            <div class="row">
+             <div class="col-2">
+                 <h1>Embrace the Aroma: <br>Elevate Your Coffee Experience Today!</h1>
+                <p>Savoring a perfect cup of coffee isn't just about that initial burst of flavor,<br>it's about consistently delivering an unparalleled experience with every sip.</p>
+                <a href="" class="btn">Explore Now &#10172;</a>
+                 
+            </div>
+            <div class="col-2">
+                <img src="1stpg.png" width="390px">
+            </div>
         </div>
-    </div>
    </div>
 </div>
     
@@ -260,6 +260,6 @@
         </div>
     </div>
     
-    
+
 </body>
 </html>
