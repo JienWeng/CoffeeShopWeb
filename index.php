@@ -17,14 +17,14 @@
          </div>
          <nav>
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="">Menu</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
                 <li><a href="">Account</a></li>
+                <li><a href=""><img src="image4.png" width = "30px" height="30px"></a></li>
             </ul>
          </nav>
-         <img src="image4.png" width = "30px" height="30px">
     </div>
     <div class="row">
         <div class="col-2">
