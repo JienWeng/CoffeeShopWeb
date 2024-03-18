@@ -18,7 +18,7 @@
          <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="">Menu</a></li>
+                <li><a href="menu.php">Menu</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
                 <li><a href="">Account</a></li>
