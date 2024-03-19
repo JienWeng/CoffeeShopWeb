@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -25,12 +25,12 @@
 .contact .content h2{
     font-size: 36px;
     font-weight: 500;
-    color:#555;
+    color: black;
 }
 
 .contact .content p{
     font-weight: 300;
-    color: darkgrey;
+    color: #555;
 }
 
 .container{
@@ -51,7 +51,6 @@
     position: relative;
     padding: 20px 0;
     display: flex;
-    align-items: center;
 }
 .container .contactInfo .box .icon{
     min-width: 60px;
@@ -62,23 +61,20 @@
     align-items: center;
     border-radius: 50%;
     font-size: 25px;
-    margin-right: 20px;
 }
 
 .container .contactInfo .box .text{
     display: flex;
-    color: #fff;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
     flex-direction: column;
     font-weight: 300;
 }
 
 .container .contactInfo .box .text h3{
-    margin: 5px 0;
+    font-weight: 500;
     color: darkred;
-}
-
-.container .contactInfo .box .text p {
-    margin-bottom: 20px;
 }
 
 .contactform{
@@ -99,7 +95,7 @@
     margin-top: 10px;
 }
 
-.contactform .inputBox input, textarea{
+.contactform .inputBox input, .contactform .inputBox textarea{
     width: 100%;
     padding: 5px 0;
     font-size: 16px;
@@ -149,11 +145,10 @@
     .container .contactInfo{
         margin-bottom: 40px;
     }
-    .container .contactInfo{
+    .container .contactInfo, .contactform{
         width: 100%;
     }
 }
-
 
 
 
