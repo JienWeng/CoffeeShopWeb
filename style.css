@@ -23,20 +23,6 @@ body{
     height: 55px;
 }
 
-.navbar{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-
-.navbar a{
-    font-size: 1.15rem;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 2.5rem;
-}
-
 .icons{
     position: absolute;
     right: 5%;
@@ -77,21 +63,6 @@ body{
         height: 17.7rem;
         background: red;
     }
-}
-
-nav{
-    flex: 1;
-    text-align: right;
-}
-
-nav ul{
-    display: inline-block;
-    list-style-type: none;
-}
-
-nav ul li{
-    display: inline-block;
-    margin-right: 20px;
 }
 
 p{
@@ -346,7 +317,7 @@ small{
 }
 
 .footer-col-2{
-    margin 30px 0;
+    margin: 30px 0;
 }
 
 .footer-col-2 ul{

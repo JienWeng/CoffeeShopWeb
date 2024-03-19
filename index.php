@@ -7,27 +7,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
-    <div class="header">
-            <div class="navbar">
-                <nav>
-                    <img src="cupcorner-logo.png" width="100px">
-                    <label for="" class="icons">
-                        <i class='bx bx-menu'></i>
-                    </label>
-                    <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="menu.php">Menu</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Account</a></li>
-                        <li><a href=""><img src="image4.png" width = "30px" height="25px"></a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+<!---------navbar----------->
+<?php include("include/navbar.php") ?>
+
+<!------------content----------->
+
     <div class="content">
         <div class="container">    
             <div class="row">
@@ -42,8 +32,7 @@
             </div>
         </div>
    </div>
-</div>
-    
+
 <!----------featured categories---------->
     <div class="categories">
         <div class="small-container">
