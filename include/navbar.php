@@ -1,57 +1,32 @@
-
-    <nav class="navbar fixed-top navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="menu.php">Menu</a>
-              </li>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Cart</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="contact.php">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><img src="img/user.png" alt=""></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-<style>
-.navbar-brand img{
-    max-height: 75px;
-    width: auto;
-    padding-left: 75px;
-    padding-right: 20px;
-}
-
-.navbar{
-    padding: 0 20px;
-}
-
-.nav-item{
-    padding: 0 20px;
-}
-
-.nav-item img{
-    max-height: 30px;
-    width: auto;
-}
-
-a{
-  text-decoration-color: black;
-}
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>    
+    
+<body>
+    
+    <header class="header">
+            <a href="#" class="logo">Cup Corner</a>
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+            <nav class="navbar">
+                <a href="index.php" style="--i:0;">Home</a>
+                <a href="#" style="--i:1;">About</a>
+                <a href="#" style="--i:2;">Menu</a>
+                <a href="contact.php" style="--i:3;">Contact</a>
+                <a href="#" style="--i:4;">Cart</a>
+            </nav>
+    </header>
+</body>
+</html>

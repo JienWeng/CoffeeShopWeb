@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("background.png") ;
+    background-image: url("bg2.png") ;
     background-size: cover
 }
 
@@ -24,12 +24,12 @@
 
 .contact .content h2{
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 600;
     color: black;
 }
 
 .contact .content p{
-    font-weight: 300;
+    font-weight: 500;
     color: #555;
 }
 
@@ -61,15 +61,16 @@
     align-items: center;
     border-radius: 50%;
     font-size: 25px;
+    margin-left: 25px;
 }
 
 .container .contactInfo .box .text{
     display: flex;
     margin-left: 20px;
-    font-size: 16px;
+    font-size: 20px;
     color: black;
     flex-direction: column;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .container .contactInfo .box .text h3{
