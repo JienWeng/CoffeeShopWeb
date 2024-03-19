@@ -4,35 +4,13 @@
     <meta charset="UTF-8">
     <title>Cup Corner Menu</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
     
-    <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <img src="cupcorner-logo.jpg" width="125px">
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="menu.php">Menu</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Account</a></li>
-                        <li><a href=""><img src="image4.png" width="30px" height="30px"></a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="row">
-                <div class="col-2">
-                    <h1>Our Menu</h1>
-                </div>
-            </div>
-        </div>
-    </div>
+<!---------navbar----------->
+<?php include("include/navbar.php") ?>
     
     <div class="small-container">
         <h2 class="title">Coffee</h2>

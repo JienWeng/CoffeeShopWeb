@@ -1,7 +1,7 @@
 
     <nav class="navbar fixed-top navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+          <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -11,7 +11,7 @@
                 <a class="nav-link active" aria-current="page" href="#">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Menu</a>
+                <a class="nav-link" href="menu.php">Menu</a>
               </li>
               </li>
               <li class="nav-item">
@@ -20,7 +20,7 @@
             </ul>
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.php">Contact</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"><img src="img/user.png" alt=""></a>
@@ -35,6 +35,7 @@
     max-height: 75px;
     width: auto;
     padding-left: 75px;
+    padding-right: 20px;
 }
 
 .navbar{
