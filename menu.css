@@ -1,40 +1,145 @@
-/* menu.css */
-
-/* Styles for the navbar */
-.navbar {
-    background-color: #333;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.navbar-brand,
-.navbar-nav .nav-link {
-    color: #fff;
-}
-
-/* Styles for the card layout */
 .card {
     margin-bottom: 20px;
 }
 
-/* Styles for card titles */
-.card-title {
-    color: #333;
-    font-weight: bold;
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
 }
 
-/* Styles for card text */
-.card-text {
-    color: #666;
+.side-nav{
+    padding: 0;
+    color:white ;
+    text-align: center;
 }
 
-/* Styles for the "Add to Cart" button */
-.btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
+.logo{
+    width: auto;
+    height: 50px;
 }
 
-.btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
+.admin-listing-header{
+    text-align: center;
+    padding: 20px;
 }
 
-/* Additional styles as needed */
+.admin-name{
+    text-align: center;
+}
+
+.admin-img{
+    width: auto;
+    height: 100px;
+}
+
+.admin-panel-button{
+    text-align: center;
+    color: white;
+    margin: 10px 50px;
+    padding: 10px;
+}
+
+.third-child{
+    align-items: center;
+}
+
+.col-md-4{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.card{
+    box-shadow: 5px 10px 8px 10px rgb(0,0,0,0.1);
+}
+
+.products-preview{
+    position: fixed;
+    top:0; left:0;
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .products-preview .preview{
+    display: none;
+    padding:1rem;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    margin:1.5rem;
+    width: 40rem;
+ }
+ 
+ .products-preview .preview.active{
+    display: inline-block;
+ }
+ 
+ .products-preview .preview img{
+    height: 15rem;
+ }
+ 
+ .products-preview .preview .fa-times{
+    position: absolute;
+    top:1rem; right:1.5rem;
+    cursor: pointer;
+    color:#444;
+    font-size: 2rem;
+ }
+ 
+ .products-preview .preview .fa-times:hover{
+    transform: rotate(90deg);
+ }
+ 
+ .products-preview .preview h3{
+    color:#444;
+    padding:.5rem 0;
+ }
+ 
+ .products-preview .preview p{
+    line-height: 1.5;
+    padding:1rem 0;
+    color:#777;
+    font-size: 1em;
+ }
+ 
+ .products-preview .preview .price{
+    padding:1rem 0;
+    font-size: 1rem;
+    color:#27ae60;
+ }
+ 
+ .products-preview .preview .buttons{
+    display: flex;
+    gap:1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+ }
+ 
+ .products-preview .preview .buttons a{
+    flex:1 1 16rem;
+    padding:1rem;
+    font-size: 1.5rem;
+    color:#444;
+    border:.1rem solid #444;
+ }
+ 
+ .products-preview .preview .buttons a.cart{
+    background: #444;
+    color:#fff;
+    text-decoration: none;
+ }
+ 
+ .products-preview .preview .buttons a.cart:hover{
+    background: #111;
+ }
