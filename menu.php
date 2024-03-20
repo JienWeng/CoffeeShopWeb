@@ -11,7 +11,7 @@
     <script src='menu.js'></script>
 </head>
 <body>
-
+<?php include("include/navbar.php") ?>
 <!-----include the conenct php as $con------>
 <?php 
 include('./include/connect.php'); 
@@ -48,4 +48,9 @@ include('./functions/common_function.php');
         ?>
     </div>
 </body>
+<footer>
+<?php
+include('include/footer.php');
+?>
+</footer>
 </html>

@@ -69,6 +69,7 @@
     display: none;
     align-items: center;
     justify-content: center;
+    z-index: 1000;
  }
  
  .products-preview .preview{
@@ -108,13 +109,13 @@
  
  .products-preview .preview p{
     line-height: 1.5;
-    padding:1rem 0;
+    padding:0.5rem 0;
     color:#777;
     font-size: 1em;
  }
  
  .products-preview .preview .price{
-    padding:1rem 0;
+    padding:0.5rem 0;
     font-size: 1rem;
     color:#27ae60;
  }

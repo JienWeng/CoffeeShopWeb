@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Cup Corner</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="include/navbar.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,7 +12,9 @@
 <body>
     
 <!---------navbar----------->
-<?php include("include/navbar.php") ?>
+<?php 
+include("include/navbar.php") 
+?>
 <!------------content----------->
 
     <div class="content">
@@ -223,30 +224,11 @@
         </div>
     </div>
 <!----------footer---------->
-    
-    <div class="footer">
-        <div class="footercontainer">
-            <div class="row">
-                <div class="footer-col-1">
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-youtube"></i></a>
-                </div>
-                <div class="footer-col-2">
-                    <ul>
-                        <li><a href=" ">Our Team</a></li>
-                        <li><a href=" ">About</a></li>
-                        <li><a href=" ">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="footerBottom">
-                    <p>&copy; 2024 Cup Corner. All rights reserved.</p>
-                
-            </div>
-        </div>
-    </div>
-    
 
 </body>
+<footer>
+<?php
+include('include/footer.php');
+?>
+</footer>
 </html>

@@ -83,7 +83,7 @@ function getCategories(){
         $category_id=$row['category_id'];
 
         echo "<li class='nav-item'>
-        <a href='index.php?category=$category_id' class='nav-link'>$category_title</a>
+        <a href='menu.php?category=$category_id' class='nav-link'>$category_title</a>
         </li>";
     }
 }
