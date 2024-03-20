@@ -1,0 +1,40 @@
+/* menu.css */
+
+/* Styles for the navbar */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Styles for the card layout */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Styles for card titles */
+.card-title {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Styles for card text */
+.card-text {
+    color: #666;
+}
+
+/* Styles for the "Add to Cart" button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Additional styles as needed */
