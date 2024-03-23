@@ -1,0 +1,69 @@
+
+        .account-box {
+            padding: 80px;
+            background: radial-gradient(circle at top left, grey, orange);
+        }
+
+        .container {
+            background: white;
+            width: 500px;
+            height: 600px;
+            position: relative;
+            text-align: center;
+            padding: 20px;
+            margin: auto;
+            border-radius: 50px;
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        *:focus {
+            outline: none;
+        }
+
+        input,
+        .submit-btn {
+            width: 90%;
+            height: 50px;
+            margin: 10px auto; 
+            padding: 0 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: white;
+            color: #333;
+        }
+
+        input:focus,
+        .submit-btn:focus {
+            border-color: #007bff;
+        }
+
+        .submit-btn {
+            background-color: #0056b3;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background-color: #00008B;
+        }
+
+        .link {
+            color: #007bff;
+            text-decoration: none;
+            transition: color .3s;
+        }
+
+        .link:hover {
+            color: #0056b3;
+        }
+   
