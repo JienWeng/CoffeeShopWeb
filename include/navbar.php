@@ -22,7 +22,7 @@
             </label>
             <nav class="navbar">
                 <a href="index.php" style="--i:0;">Home</a>
-                <a href="#" style="--i:1;">About</a>
+                <a href="#" style="--i:1;">Log In</a>
                 <a href="menu.php" style="--i:2;">Menu</a>
                 <a href="contact.php" style="--i:3;">Contact</a>
                 <a href="#" style="--i:4;">Cart</a>
@@ -46,6 +46,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-image: url("bg2.png") ;
 }
 
 .header::before{
@@ -89,6 +90,7 @@ header::after{
     text-decoration: none;
     font-weight: 500;
     margin-left: 2.5rem;
+    transition: color 0.3s ease;
 }
 
 #check{

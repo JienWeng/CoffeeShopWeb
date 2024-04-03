@@ -26,7 +26,7 @@ include("include/navbar.php")
                 <a href="" class="btn">Explore Now &#10172;</a>
             </div>
             <div class="col-2">
-                <img src="1stpg.png" width="300px">
+                <img src="image.home/1stpg.png" width="300px">
             </div>
         </div>
    </div>
@@ -37,13 +37,13 @@ include("include/navbar.php")
         <div class="small-container">
             <div class="row">
              <div class="col-3">
-                <img src="ad.coffee1.png">
+                <img src="image.home/ad.coffee1.png">
              </div>
              <div class="col-3">
-                 <img src="ad.coffee3.png">
+                 <img src="image.home/ad.coffee3.png">
              </div>
              <div class="col-3">
-                 <img src="ad.coffee2.png">
+                 <img src="image.home/ad.coffee2.png">
              </div>
          </div>
         </div>
@@ -54,7 +54,7 @@ include("include/navbar.php")
         <h2 class="title">Seasonal Flavors</h2>
         <div class="row">
             <div class="col-4">
-                <img src="new.coffee.png">
+                <img src="image.home/pumpkinSpiceLatte.png">
                 <h4>Pumpkin Spice Latte</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -66,7 +66,7 @@ include("include/navbar.php")
                 <p>RM14.90</p>
             </div>
             <div class="col-4">
-                <img src="new.cake.png">
+                <img src="image.home/new.cake.png">
                 <h4>Cranberry Orange Cake</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -78,7 +78,7 @@ include("include/navbar.php")
                 <p>RM18.90</p>
             </div>
             <div class="col-4">
-                <img src="new.food.jpg">
+                <img src="image.home/mfood.jpg">
                 <h4>Maple Pecan Scones</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -90,7 +90,7 @@ include("include/navbar.php")
                 <p>RM9.90</p>
             </div>
             <div class="col-4">
-                <img src="new.coffee2.png">
+                <img src="image.home/new.coffee2.jpg">
                 <h4>Caramel Apple Latte</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -105,7 +105,7 @@ include("include/navbar.php")
         <h2 class="title">All Time Favourites</h2>
         <div class="row">
             <div class="col-4">
-                <img src="atf.coffee.png">
+                <img src="image.home/atf.coffee.png">
                 <h4>Cupa Cozy</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -117,7 +117,7 @@ include("include/navbar.php")
                 <p>RM11.90</p>
             </div>
             <div class="col-4">
-                <img src="atf.cake.png">
+                <img src="image.home/atf.cake.png">
                 <h4>Tiramisu Cake</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -129,7 +129,7 @@ include("include/navbar.php")
                 <p>RM12.90</p>
             </div>
             <div class="col-4">
-                <img src="atf.coffee2.png">
+                <img src="image.home/atf.coffee2.png">
                 <h4>Americano</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -147,7 +147,7 @@ include("include/navbar.php")
         <div class="small container">
             <div class="row">
                 <div class="col-2">
-                    <img src="limited.ed.png" class="limited-img">
+                    <img src="image.home/limited.ed.png" class="limited-img" width =400px>
                 </div>
                 <div class="col-2">
                     <p>Spooktacular saving</p>
@@ -172,7 +172,7 @@ include("include/navbar.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-half"></i>
                     </div>
-                    <img src="cus.rev.png">
+                    <img src="image.home/cus.rev.png">
                     <h3>Nur Fazira, Malaysian Actress</h3>
                 </div>
                 <div class="col-3">
@@ -185,7 +185,7 @@ include("include/navbar.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-o"></i>
                     </div>
-                    <img src="cus.rev2.png">
+                    <img src="image.home/cus.rev2.png">
                     <h3>Chong Yu Tou, UTAR professor</h3>
                 </div>
                 <div class="col-3">
@@ -198,7 +198,7 @@ include("include/navbar.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <img src="cus.rev3.png">
+                    <img src="image.home/cus.rev3.png">
                     <h3>Kumar A/L Aditya, CEO of Microhard </h3>
                 </div>
             </div>
