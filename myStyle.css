@@ -121,8 +121,8 @@ body {
 }
 
 h4 {
-    color: #555;
-    font-weight: normal;
+    color: red;
+    font-weight: bold;
 }
 
 .col-4 p {
