@@ -210,16 +210,16 @@ include("include/navbar.php")
         <div class="small-container">
             <div class="row">
                 <div class="col-5">
-                    <img src="blogo4.png">
+                    <img src="image.home/blogo4.png">
                 </div>
                 <div class="col-5">
-                    <img src="blogo2.png">
+                    <img src="image.home/blogo2.png">
                 </div>
                 <div class="col-5">
-                    <img src="blogo3.png">
+                    <img src="image.home/blogo3.png">
                 </div>
                 <div class="col-5">
-                    <img src="blogo1.png">
+                    <img src="image.home/blogo1.png">
                 </div>
             </div>
         </div>
