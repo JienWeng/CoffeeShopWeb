@@ -5,14 +5,14 @@
         <div class="footercontainer">
             <div class="row">
                 <div class="footer-col-1">
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
                 </div>
                 <div class="footer-col-2">
                     <ul>
-                        <li><a href=" ">Our Team</a></li>
+                        <li><a href="ourteam.php">Our Team</a></li>
                         <li><a href="about.php">About</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
                     </ul>
@@ -94,4 +94,4 @@
     color: white;
 }
 
-    </style>
+</style>

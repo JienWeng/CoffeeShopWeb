@@ -24,7 +24,7 @@ include("include/navbar.php")
              <div class="col-6">
                  <h1>Embrace the Aroma: <br>Elevate Your Coffee Experience Today!</h1>
                 <p>Savoring a perfect cup of coffee isn't just about that initial burst of flavor,<br>it's about consistently delivering an unparalleled experience with every sip.</p>
-                <a href="" class="btn">Explore Now &#10172;</a>
+                <a href="menu.php" class="btn">Explore Now &#10172;</a>
             </div>
             <div class="col-6">
                 <img src="image.home/1stpg.png" width="300px">
