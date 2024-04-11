@@ -25,12 +25,16 @@
 .contact .content h2{
     font-size: 36px;
     font-weight: 600;
-    color: black;
+    color: #5C4033;
+    margin-bottom: 10px;
 }
 
 .contact .content p{
-    font-weight: 500;
-    color: #555;
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 .container{
@@ -53,9 +57,10 @@
     display: flex;
 }
 .container .contactInfo .box .icon{
+    color: #5C4033;
     min-width: 60px;
     height: 60px;
-    background: #fff;
+    background: #FFF8DC;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,31 +73,33 @@
     display: flex;
     margin-left: 20px;
     font-size: 20px;
-    color: black;
+    color: #5C4033;
     flex-direction: column;
     font-weight: 500;
 }
 
 .container .contactInfo .box .text h3{
-    font-weight: 500;
-    color: darkred;
+    font-weight: 700;
+    color: #8B5A2B;
 }
 
 .contactform{
     width: 40%;
     padding: 40px;
-    background: #fff;
+    background: #ffffff;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    border-radius: 8px;
 }
 
 .contactform h2{
     font-size: 30px;
-    color: #333;
+    color: #5C4033;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .contactform .inputBox{
     position: relative;
-    width: 100%;
     margin-top: 10px;
 }
 
@@ -128,7 +135,7 @@
 }
 .contactform .inputBox input[type="submit"]{
     width: 100px;
-    background: darkred;
+    background: #A0522D;
     color: #fff;
     border: none;
     cursor: pointer;
