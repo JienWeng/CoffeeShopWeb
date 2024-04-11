@@ -13,8 +13,8 @@
                 <div class="footer-col-2">
                     <ul>
                         <li><a href=" ">Our Team</a></li>
-                        <li><a href="about\index.php">About</a></li>
-                        <li><a href=" ">Contact Us</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="footerBottom">

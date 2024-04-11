@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Cup Corner</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="myStyle.css">
+    <link rel="stylesheet" href="home.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,12 +21,12 @@ include("include/navbar.php")
     <div class="content">
         <div class="container">    
             <div class="row">
-             <div class="col-2">
+             <div class="col-6">
                  <h1>Embrace the Aroma: <br>Elevate Your Coffee Experience Today!</h1>
                 <p>Savoring a perfect cup of coffee isn't just about that initial burst of flavor,<br>it's about consistently delivering an unparalleled experience with every sip.</p>
                 <a href="" class="btn">Explore Now &#10172;</a>
             </div>
-            <div class="col-2">
+            <div class="col-6">
                 <img src="image.home/1stpg.png" width="300px">
             </div>
         </div>

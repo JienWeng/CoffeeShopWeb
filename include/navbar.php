@@ -28,7 +28,8 @@
             </nav>
     </header>
     <style>
-        *{
+        
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -85,9 +86,9 @@ header::after{
 
 .navbar a{
     font-size: 1.15rem;
-    color: #7B241C;
+    color: #5C4033;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 2.5rem;
     transition: color 0.3s ease;
 }
