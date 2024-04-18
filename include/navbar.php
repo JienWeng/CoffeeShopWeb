@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
+    
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     
@@ -21,15 +22,15 @@
             </label>
             <nav class="navbar">
                 <a href="index.php" style="--i:0;">Home</a>
-                <a href="#" style="--i:1;">Log In</a>
+                <a href="#" style="--i:1;">About</a>
                 <a href="menu.php" style="--i:2;">Menu</a>
                 <a href="contact.php" style="--i:3;">Contact</a>
-                <a href="#" style="--i:4;">Cart</a>
+                <a href="cart.php" style="--i:4;">Cart</a>
+                <a href="account.php" style="--i:5;">Account</a>
             </nav>
     </header>
     <style>
-        
-*{
+        *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -46,7 +47,6 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-image: url("bg2.png") ;
 }
 
 .header::before{
@@ -86,11 +86,10 @@ header::after{
 
 .navbar a{
     font-size: 1.15rem;
-    color: #5C4033;
+    color: #7B241C;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 2.5rem;
-    transition: color 0.3s ease;
 }
 
 #check{
