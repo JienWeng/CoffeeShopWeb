@@ -47,6 +47,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-image: url("bg2.png") ;
 }
 
 .header::before{
@@ -150,7 +151,7 @@ header::after{
     text-align: center;
     transform: translateY(-50px);
     opacity: 0;
-    transition: .3s ease;
+    transition: color.3s ease;
     }
     
     #check:checked~.navbar a{
