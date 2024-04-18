@@ -22,7 +22,7 @@
             </label>
             <nav class="navbar">
                 <a href="index.php" style="--i:0;">Home</a>
-                <a href="#" style="--i:1;">About</a>
+                <a href="about.php" style="--i:1;">About</a>
                 <a href="menu.php" style="--i:2;">Menu</a>
                 <a href="contact.php" style="--i:3;">Contact</a>
                 <a href="cart.php" style="--i:4;">Cart</a>
