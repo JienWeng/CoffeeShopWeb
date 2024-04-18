@@ -24,7 +24,8 @@
         </div>
     </div>
     <style>
-        .footer {
+        
+.footer {
     background-color: #111;
 }
 
