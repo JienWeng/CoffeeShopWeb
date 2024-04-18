@@ -1,0 +1,122 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url("images/backgroundaccount2.webp") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgba(250, 245, 235, 0.95); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    overflow: hidden;
+}
+
+.box {
+    margin-bottom: 30px;
+}
+
+.form-box {
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h1, h2, th, .btn {
+    color: #5C4033;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.8em;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 0.8em;
+}
+
+p, th, td {
+    margin: 0.5em 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #eae0d6; 
+}
+
+.btn {
+    background-color: #d17d00; 
+    padding: 12px 18px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #b15d00;
+}
+
+.logout-button {
+    background-color: #C19A6B; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    text-decoration: none; 
+    display: inline-block; 
+    margin-top: 20px; 
+}
+
+.logout-button:hover {
+    background-color: #a93226; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1, h2 {
+        font-size: 1.8rem;
+    }
+
+    table, th, td {
+        display: block;
+    }
+
+    th, td {
+        text-align: right;
+    }
+
+    th::before, td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}

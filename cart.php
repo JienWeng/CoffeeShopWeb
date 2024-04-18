@@ -46,7 +46,7 @@ foreach ($_SESSION['cart'] as $product_id => $quantity) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
     
-    <link rel="stylesheet" href="cart.css"> 
+    <link rel="stylesheet" href="Cart.css"> 
 </head>
 <body>
     <?php include("include/navbar.php") ?>
@@ -125,7 +125,7 @@ foreach ($_SESSION['cart'] as $product_id => $quantity) {
                 </div>
             </div>
         <?php else: ?>
-            <p style="text-align: center; padding:50px;">Your cart is empty.</p>
+            <p style="text-align: center; font-weight: 600; padding:50px;">Your cart is empty.</p>
         <?php endif; ?>
     </div>
     <script>
@@ -161,6 +161,8 @@ foreach ($_SESSION['cart'] as $product_id => $quantity) {
     
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-   
+<footer>
+        <?php include('include/footer.php'); ?>
+</footer>
 </body>
 </html>

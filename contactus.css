@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("images/bgcontact.png") ;
+    background: url("images/bgcontact4.webp")no-repeat center center fixed;
     background-size: cover;
 }
 

@@ -54,7 +54,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Account</title>
-    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="reAccount.css">
 </head>
 <body>
     <!-- Include navbar -->
@@ -74,7 +74,7 @@
                 </div>
                 <!-- Logout button -->
                 <form action="" method="post">
-                    <input type="submit" name="logout" value="Logout">
+                    <input type="submit" name="logout" value="Logout" class="logout-button">
                 </form>
             </div>
         </div>

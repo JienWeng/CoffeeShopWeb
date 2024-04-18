@@ -27,6 +27,8 @@
         
 .footer {
     background-color: #111;
+    bottom: 0;
+    left: 0;
 }
 
 .footercontainer{
