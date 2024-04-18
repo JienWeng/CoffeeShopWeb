@@ -28,7 +28,7 @@ include("include/navbar.php")
                 $password = $_POST['password'];
 
                 // Check if the email is already used
-                $verify_email = mysqli_query($conn, "SELECT Email FROM users WHERE Email='$email'");
+                $verify_email = mysqli_query($con, "SELECT Email FROM users WHERE Email='$email'");
                 if(mysqli_num_rows($verify_email) != 0){
                     echo "<div class='message'>
                               <p>Email is already used! Please try another one.</p>
@@ -36,7 +36,7 @@ include("include/navbar.php")
                     echo "<a href='javascript:self.history.back()'><button class='btn'>Go Back</button>";
                 } else {
                     // Check if the username is already used
-                    $verify_username = mysqli_query($conn, "SELECT Username FROM users WHERE Username='$username'");
+                    $verify_username = mysqli_query($con, "SELECT Username FROM users WHERE Username='$username'");
                     if(mysqli_num_rows($verify_username) != 0){
                         echo "<div class='message'>
                                   <p>Username is already used! Please try another one.</p>
@@ -44,7 +44,7 @@ include("include/navbar.php")
                         echo "<a href='javascript:self.history.back()'><button class='btn'>Go Back</button>";
                     } else {
                         // Insert user data into the database
-                        mysqli_query($conn, "INSERT INTO users(Firstname, Lastname, Username, Email, Password) VALUES ('$firstname', '$lastname', '$username', '$email', '$password')") or die("Error Occurred");
+                        mysqli_query($con, "INSERT INTO users(Firstname, Lastname, Username, Email, Password) VALUES ('$firstname', '$lastname', '$username', '$email', '$password')") or die("Error Occurred");
 
                         echo "<div class='message2'>
                                   <p>Registration successful!</p>
