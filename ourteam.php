@@ -27,7 +27,7 @@
             </div>
             <div class="card">
                 <div class="content">
-                    <div class="imgBx"><img src="images/founder2.png"></div>
+                    <div class="imgBx"><img src="images/founderos.jpg"></div>
                     <div class="contentBx">
                         <h3>Head of Cup Corner<br><span>Manager</span></h3>
                     </div>

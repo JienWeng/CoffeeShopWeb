@@ -14,7 +14,8 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 90vh;
-    background-image: url("background.png");
+    background-image: url("images/backgroundlogin.webp");
+    background-size: cover;
 }
 
 .box{

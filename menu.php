@@ -29,10 +29,10 @@ include('./functions/common_function.php');
             ?>
         </div>
     </div>
-    <div class="side-nav col-md-2 bg-secondary">
+    <div class="side-nav col-md-2">
         <!-----------side nav---------->
         <ul class="navbar-nav me-auto">
-            <li class="nav-item bg-info">
+            <li class="nav-item">
                 <a href="#" class="nav-link"><h4>Categories</h4></a>
             </li>
             <?php
