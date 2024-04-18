@@ -51,6 +51,7 @@
         <a href="index.php?view_orders" class="btn btn-primary">View Orders</a>
         <a href="index.php?all_payments" class="btn btn-primary">All Payments</a>
         <a href="index.php?user_list" class="btn btn-primary">List Users</a>
+        <a href="index.php?inbox" class="btn btn-primary">Inbox</a>
     </div>
 
     <!-- Content -->
@@ -77,7 +78,10 @@
         }
         if(isset($_GET['user_list'])){
             include('user_list.php');
-        }                
+        }    
+        if(isset($_GET['inbox'])){
+            include('inbox.php');
+        }                            
         ?>
     </div>
 </body>
