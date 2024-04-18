@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: beige;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.cart-table th {
+    background-color: burlywood;
+    color: black;
+}
+
+.cart-item-image {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cart-item-name {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #333;
+    margin-left: 15;
+}
+
+.btn-remove {
+    color: #ff4444;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.btn-remove:hover {
+    color: #cc0000;
+}
+
+/* Enhancements for the Checkout and Remove buttons */
+.btn-success {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+}
+
+/* Responsive table */
+@media screen and (max-width: 768px) {
+    .cart-table, .cart-table thead, .cart-table tbody, .cart-table th, .cart-table td, .cart-table tr {
+        display: block;
+        width: 100%;
+    }
+
+    .cart-table th, .cart-table td {
+        text-align: right;
+    }
+
+    .cart-table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+    }
+
+    .cart-table td {
+        text-align: right;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Additional styles for buttons and inputs */
+input[type="text"], select.form-select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button:hover, input[type="submit"]:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #8f6b4c; 
+    --dark-color: #5C4033;
+    --accent-color: #C19A6B;
+    --text-color: #333; 
+    --background-color: #FFF8DC;
+}
+
+.about{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/bgabt.png") ;
+    background-size: cover;
+}
+
+.section_header {
+    color: var(--dark-color);
+    font-size: 2.8em; 
+    font-weight: 800;
+    margin-bottom: 0.5em;
+}
+
+.section_subheader {
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 1em;
+    font-size: 1.1em; 
+    max-width: 60ch;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+.about_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+.about_flex{
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background-color: var(--light-brown);
+}
+
+.about_card{
+    background-color: var(--background-color);
+    padding: 1.5em;
+    border-radius: 10px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1); 
+    margin-bottom: 1em; 
+    text-align: center;
+}
+
+.about_card:last-child{
+    border: none;
+}
+
+.about_card h4{
+    color: var(--primary-color);
+    font-size: 1.8em;
+    margin-bottom: 0.25em;
+}
+
+.about_card p{
+    color: var(--text-color);
+    font-size: 1em;
+}
+
+.about_image img{
+    max-width: 450px;
+    margin: auto;
+    margin-left: 80px;
+    margin-top: -90px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--accent-color);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.about_image img:hover{
+    box-shadow: 0 0 25px var(--accent-color),
+                0 0 50px var(--accent-color),
+                0 0 100px var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  .about_container {
+    grid-template-columns: 1fr; 
+  }
+  .about_image img {
+    margin-left: 0; 
+    max-width: 100%; 
+    display: block;
+  }
+  .about {
+    padding: 20px; 
+  }
+  .section_subheader {
+    max-width: none; 
+  }
+}
