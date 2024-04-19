@@ -1,3 +1,23 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Apr 19, 2024 at 08:58 AM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
 -- Database: `cup_corner`
 --
 CREATE DATABASE IF NOT EXISTS `cup_corner` DEFAULT CHARACTER SET utf32 COLLATE utf32_general_ci;
@@ -49,7 +69,8 @@ INSERT INTO `contact_responses` (`id`, `name`, `email`, `message`, `created_at`)
 (3, 'hellooscar', 'donut@gmail.com', 'my donut is not served', '2024-04-16 23:49:14'),
 (7, 'LAI JIEN WENG', 'laijienweng@1utar.my', 'The coffee is too bitter.', '2024-04-18 09:50:58'),
 (6, 'Max', 'johnmax@hotmail.com', 'Very good service!! Please add more seasonal coffe product! I like it so much!', '2024-04-18 09:06:20'),
-(8, 'Oscarr', 'laijienweng@1utar.my', 'Coffee is too bitter, please compensate me!!!', '2024-04-18 14:21:37');
+(8, 'Oscarr', 'laijienweng@1utar.my', 'Coffee is too bitter, please compensate me!!!', '2024-04-18 14:21:37'),
+(9, 'LAI JIEN WENG', 'laijienweng@1utar.my', 'Your spana very lembik, cannot fix my pipe.', '2024-04-18 15:24:44');
 
 -- --------------------------------------------------------
 
@@ -164,7 +185,7 @@ CREATE TABLE `products` (
 INSERT INTO `products` (`product_id`, `product_title`, `product_description`, `category_id`, `product_image`, `product_price`) VALUES
 (1, 'Americano', 'Rich, full-bodied espresso with hot water in true European style. While the americano is similar in strength and taste to American-style brewed coffee, there are subtle differences achieved by pulling a fresh shot of espresso for the beverage base. The best way to discover these nuances, of course, is to try a cup yourself.', 1, 'americano.jpg', 10.00),
 (2, 'Asian Dolce Latte', 'Introducing Asian Dolce Latte, the new smooth and velvety textured latte with an Asian twist. Inspired by how coffee is drank in many parts of Asia, strong yet smooth and flavored, Asian Dolce Latte has a delicious local flavor in every sip.', 1, 'asianDolceLatte.jpg', 18.00),
-(3, 'Caffe Latte', 'Rich, full-bodied espresso in steamed milk, lightly topped with foam. This is the original coffeehouse classic. And like most classics, part of its appeal comes from its simplicity. A caffe latte is simply a shot or two of bold, tasty espresso with fresh, sweet steamed milk over it. Some prefer to add syrup or extra espresso to the recipe. Some maintain that it is entirely perfect as is!!!', 1, 'caffeLatte.jpg', 14.00),
+(3, 'Caffe Latte', 'Rich, full-bodied espresso in steamed milk, lightly topped with foam. This is the original coffeehouse classic. And like most classics, part of its appeal comes from its simplicity. A caffe latte is simply a shot or two of bold, tasty espresso with fresh, sweet steamed milk over it. Some prefer to add syrup or extra espresso to the recipe. Some maintain that it is entirely perfect as is!', 1, 'caffeLatte.jpg', 14.00),
 (4, 'Caffe Mocha', 'Espresso with bittersweet mocha sauce and steamed milk. Topped with sweetened whipped cream. There’s no question chocolate and coffee are flavors that meant for each other. Both are rich and full of depth. Where one is creamy, the other is roasty. They complement each other perfectly. And when they come together under a fluffy cloud of sweetened whipped cream, you’ll wish their union would last forever.', 1, 'caffeMocha.jpg', 16.00),
 (5, 'Cappuccino', 'Espresso with steamed milk, topped with a deep layer of foam. With less milk than a latte, cappuccino offers a stronger espresso flavor and a luxurious texture. To make it properly requires much skill and attentiveness. Arguably the most important part is frothing the foam to velvety perfection as the milk steams – something our baristas take great care to achieve. The milky moustache that clings to your upper lip is proof we’ve made yours right. And may we say, you wear it well.', 1, 'cappucino.jpg', 14.00),
 (6, 'Caramel Macchiato', 'Freshly steamed milk with vanilla-flavored syrup is marked with espresso, and finished with caramel sauce. Scores of people are passionate devotees of this signature beverage. So bewitched are they, you’d think it was some kind of magical elixir. Well there’s no hocus pocus here. We’ll tell you exactly what goes into it: creamy vanilla-flavored syrup, freshly steamed milk with a topping of velvety-rich foam, an intense hit of our Espresso Roast, a finishing of buttery caramel drizzle … okay, we take it back. That does sounds like magic to us. (And it tastes even better.)', 1, 'caramelMacchiato.jpg', 16.00),
@@ -187,7 +208,11 @@ INSERT INTO `products` (`product_id`, `product_title`, `product_description`, `c
 (23, 'Matcha Latte', 'Sweetened matcha green tea with steamed milk. The Japanese tea ceremony emphasizes the virtues of humility, restraint and simplicity, its practice governed by a set of highly ritualized actions. But this smooth and creamy matcha-based beverage can be enjoyed any way you like. So by all means, slurp away if you want to.', 5, 'matchaLatte.jpg', 18.00),
 (24, 'Iced Shaken Lemon Tea', 'Dark black tea. Sunny lemonade. Can such contradictory figures truly coexist in one delightfully refreshing drink? Thankfully, in this case opposites not only attract, they form the perfect marriage. Better yet, no one has to make any compromises – especially not in the flavor department. Did you know? The black and yellow stripes on the common bumblebee may have been the inspiration for this blend of black tea and lemonade. At least, no bumblebee has ever told us otherwise.', 5, 'lemonTea.jpg', 14.00),
 (25, 'Strawberry Açai With Lemonade Starbucks Refreshers™', 'This ice-cold, fruity, and flavorful beverage bursts with berry goodness. Handcrafted with a delicious blend of fruit juice accented by strawberry and açaí notes, delightful zing of citrusy lemonade, and green coffee extract, this hand-shaken beverage surprises thanks to blissful strawberry pieces in every sip. The Strawberry Açaí with Lemonade Starbucks Refreshers™ is only available as an iced handcrafted beverage.', 5, 'strawberryLemonade.jpg', 20.00),
-(26, 'Pumpkin Spice Latte', '\r\nPumpkin Spice Latte is a popular seasonal beverage featuring espresso, steamed milk, pumpkin pie spice, and often topped with whipped cream, enjoyed during autumn months.', 7, 'pumpkinSpiceLatte.png', 20.00);
+(26, 'Pumpkin Spice Latte', '\r\nPumpkin Spice Latte is a popular seasonal beverage featuring espresso, steamed milk, pumpkin pie spice, and often topped with whipped cream, enjoyed during autumn months.', 7, 'pumpkinSpiceLatte.png', 20.00),
+(31, 'Maple Pecan Scones', 'Enjoy the delectable combination of rich maple and crunchy pecans in our Maple Pecan Scones. Each buttery scone is expertly crafted, with a delicate balance of sweet maple syrup and nutty pecans in every bite. Our Maple Pecan Scones are ideal for pairing with your morning coffee or as a delicious afternoon treat, and they provide a comforting taste of indulgence that will leave you wanting more.', 7, 'mfood.jpg', 9.90),
+(32, 'Cranberry Orange Cake', 'Our Cranberry Orange Cake combines tangy cranberries and zesty orange to create a delightful harmony of flavours. Each moist and flavorful bite is a symphony of sweet and citrus notes, expertly balanced to tantalise your palate.', 7, 'new.cake.png', 18.90),
+(33, 'Caramel Apple Latte', 'Enjoy the warm embrace of autumn with our Caramel Apple Latte. Enjoy the comforting warmth of freshly brewed espresso, perfectly blended with creamy caramel and the crisp sweetness of ripe apples. Each sip immerses your senses in a symphony of autumnal flavours, transporting you to orchard-filled landscapes and cosy fireside gatherings. ', 7, 'new.coffee2.jpg', 15.90),
+(34, 'Tiramisu Cake', 'Embark on a decadent journey with our Tiramisu Cake, a divine creation that combines layers of delicate sponge cake soaked in rich espresso, luscious mascarpone cream, and cocoa powder. Each forkful is a symphony of flavours and textures, from the strong kick of coffee to the creamy indulgence of mascarpone, culminating in a divine dessert experience', 3, 'atf.cake.png', 12.90);
 
 -- --------------------------------------------------------
 
@@ -209,7 +234,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `username`, `email`, `password`) VALUES
-(4, 'Jien Weng', 'Chong', 'Jr', 'reallyhat@gmail.com', '12345678'),
+(4, 'Jien Weng', 'Lai', 'Jr', 'reallyhat@gmail.com', '12345678'),
 (5, 'Oscar', 'Chong', 'Oscar', 'oscar@gmail.com', 'Oscar1234'),
 (6, 'En Yi', 'Liew', 'enyi', 'liewenyi@yahoo.com', '12345678'),
 (7, 'John', 'Max', 'max', 'johnmax@hotmail.com', '12345678'),
@@ -266,25 +291,25 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `category_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `category_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `contact_responses`
 --
 ALTER TABLE `contact_responses`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `order_details`
 --
 ALTER TABLE `order_details`
-  MODIFY `detail_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=84;
+  MODIFY `detail_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=90;
 
 --
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- AUTO_INCREMENT for table `users`
@@ -301,4 +326,3 @@ ALTER TABLE `users`
 --
 ALTER TABLE `order_details`
   ADD CONSTRAINT `order_details_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `orders` (`order_id`);
---
