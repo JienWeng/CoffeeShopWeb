@@ -50,7 +50,7 @@ Run the Website:
 
 **Admin Guide**  
 
-Access the admin panel by typing localhost/cupcorner/admin in your browser.  
+Access the admin panel by typing 'localhost/cupcorner/admin' in your browser.  
 
 1. Insert Products:  
   -Fill in the product title, description, category, image, and price.  
