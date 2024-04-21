@@ -88,7 +88,7 @@ Access the admin panel by typing 'localhost/cupcorner/admin' in your browser.
 The Cup Corner Cafe website was developed by Group 10.  
 -Lai Jien Weng         2104438  
 -Janice Ng Zhi Yan     2104332  
--Chow Ping Ching         
+-Chow Ping Ching       1903301
 -Wong Siew Kuan        2006530  
 
 **Contact**  
